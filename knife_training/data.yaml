@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Knife - v1 2026-04-10 7-14pm', 'knife']
+
+roboflow:
+  workspace: project-dh0zt
+  project: knife-tlmwj-yujnb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-dh0zt/knife-tlmwj-yujnb/dataset/1
