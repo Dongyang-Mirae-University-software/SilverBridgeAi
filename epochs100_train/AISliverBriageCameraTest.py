@@ -4,6 +4,9 @@ from ultralytics import YOLO
 model_fire = YOLO(r"C:/Users/happy/SilverBridgeAI/AISilverBridgeLJH/epochs30_train/firetrain/weights/best.pt")
 model_knife = YOLO(r"C:/Users/happy/SilverBridgeAI/AISilverBridgeLJH/epochs200_train/knifetrain/weights/best.pt")
 
+print("Fire model classes:", model_fire.names)
+print("Knife model classes:", model_knife.names)
+
 cap = cv2.VideoCapture(1)
 
 while True:
@@ -16,25 +19,28 @@ while True:
 
     img = frame.copy()
 
-    # Fire / Smoke 감지 박스 그리기
+    # Fire / Smoke 감지 박스
     for box in results_fire[0].boxes:
         x1, y1, x2, y2 = map(int, box.xyxy[0])
         conf = float(box.conf[0])
         cls_id = int(box.cls[0])
 
-        class_name = model_fire.names[cls_id]  # fire 또는 smoke
+        class_name = model_fire.names[cls_id].lower()
 
         if conf < 0.5:
             continue
 
         if class_name == "fire":
             color = (0, 0, 255)      # 빨간색
+            label_name = "fire"
         elif class_name == "smoke":
             color = (255, 0, 0)      # 파란색
+            label_name = "smoke"
         else:
-            color = (0, 255, 255)    # 노란색
+            color = (0, 255, 255)
+            label_name = class_name
 
-        label = f"{class_name} {conf:.2f}"
+        label = f"{label_name} {conf:.2f}"
 
         cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
         cv2.putText(
@@ -47,7 +53,7 @@ while True:
             2
         )
 
-    # Knife 감지 박스 그리기
+    # Knife 감지 박스
     for box in results_knife[0].boxes:
         x1, y1, x2, y2 = map(int, box.xyxy[0])
         conf = float(box.conf[0])
