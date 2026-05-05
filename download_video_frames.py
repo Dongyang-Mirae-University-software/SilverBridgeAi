@@ -1,5 +1,6 @@
 # 유튜브 url 입력하면 영상 자동 다운로드 + 프레임 추출
 # roboflow의 url 입력하는 기능이 없어졌음
+# 프레임 수 지정 가능
 
 import cv2
 import os
