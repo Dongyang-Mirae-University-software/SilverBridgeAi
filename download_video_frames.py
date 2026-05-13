@@ -36,7 +36,7 @@ count = 0
 saved = 0
 
 # 몇 프레임마다 저장할지
-frame_interval = 33
+frame_interval = 10
 
 while True:
     ret, frame = cap.read()
