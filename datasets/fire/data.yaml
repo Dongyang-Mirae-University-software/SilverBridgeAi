@@ -1,13 +1,25 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+# Fire & Smoke Detection Dataset (Full Merged + Cleaned)
+# ==========================================
+# 병합 출처
+#   - fire      (기 정제된 원본)
+#   - fire_new  (fire 단일 클래스, 123장)
+#   - fire_new2 (fire+smoke, 241장)
+#   - fire_new3 (혼합 5클래스 → fire만 추출, 2,184장)
+#   - fire_new4 (fire+smoke, 1,153장)
+# MD5 + pHash(Hamming<=8) 중복 제거 후 총 6,764장
+# ==========================================
+
+path: ../datasets/fire
+
+train: train/images
+val:   valid/images
+test:  test/images
 
 nc: 2
-names: ['Fire', 'Smoke']
+names: ['fire', 'smoke']
 
-roboflow:
-  workspace: project-dh0zt
-  project: fire-h2gkf-nmh0t
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/project-dh0zt/fire-h2gkf-nmh0t/dataset/1
+# Split 통계 (정제 후)
+# train : 5,519장
+# valid : 811장
+# test  : 434장
+# total : 6,764장
