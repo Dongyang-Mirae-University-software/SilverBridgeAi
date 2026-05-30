@@ -1,13 +1,32 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+# Knife Detection Dataset (Rebuilt)
+# ==========================================
+# 원본: Roboflow knife-skqnq-yiuai v1 (CC BY 4.0)
+# 재구성: pHash 유사 중복 제거 + Hard Negative 추가
+#
+# Hard Negative 카테고리 (라벨 없음):
+#   ruler_stationery - 자·연필·볼펜
+#   scissors         - 가위
+#   kitchen_utensil  - 주방 도구 (칼 제외)
+#   tools_metal      - 드라이버·스패너 등
+#   pointer_stick    - 지시봉·막대기
+#   chopsticks       - 젓가락
+#   classroom_desk   - 강의실 (칼 없는 장면)
+#   home_kitchen     - 가정 주방 (칼 없는 장면)
+#
+# total : 2,308장  (Hard Neg: 220장)
+# ==========================================
+
+path: ../datasets/knife
+
+train: train/images
+val:   valid/images
+test:  test/images
 
 nc: 2
 names: ['Knife', 'Knife_Handle']
 
-roboflow:
-  workspace: project-dh0zt
-  project: knife-skqnq-yiuai
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/project-dh0zt/knife-skqnq-yiuai/dataset/1
+# Split 통계
+# train : 2,117장
+# valid : 132장
+# test  : 59장
+# total : 2,308장
