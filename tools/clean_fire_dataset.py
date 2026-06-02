@@ -328,3 +328,4 @@ names: ['fire', 'smoke']
 print(f"\n  data.yaml 갱신 완료")
 print(f"\n  재학습 명령어:")
 print(f"    python src/training/train.py fire")
+# Updated: perf: 성능 최적화
