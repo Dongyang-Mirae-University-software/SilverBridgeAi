@@ -168,3 +168,5 @@ class FastAPIClient:
             return False, f"✗ 오류: {str(e)}"
 
 # Updated: feat: 로깅 기능 추가
+
+# Updated: docs: 타입 힌트 추가
