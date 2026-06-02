@@ -138,3 +138,5 @@ class AuthClient:
     def get_user_info(self) -> Optional[dict]:
         """저장된 사용자 정보 조회"""
         return self.config.load_user_info()
+
+# Updated: docs: 타입 힌트 추가
