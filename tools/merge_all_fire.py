@@ -480,3 +480,5 @@ print(f"  합계       : {total_final:,}장")
 print(f"\n  재학습 명령어:")
 print(f"    python src/training/train.py fire")
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
