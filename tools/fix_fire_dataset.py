@@ -148,3 +148,5 @@ print("\n" + "=" * 54)
 print("  완료 — 재학습 명령어:")
 print("    python src/training/train.py fire --epochs 250")
 print("=" * 54)
+
+# Updated: perf: 성능 최적화
