@@ -254,3 +254,5 @@ class APIClient:
         """
         user_info = self.auth.get_user_info()
         return user_info and user_info.get("role") == "GUARDIAN" if user_info else False
+
+# Updated: refactor: 중복 코드 제거
