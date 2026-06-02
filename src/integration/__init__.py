@@ -14,3 +14,5 @@ __all__ = [
     'FastAPIClient',
     'DetectionReporter',
 ]
+
+# Updated: fix: 에러 처리 강화
