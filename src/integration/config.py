@@ -69,3 +69,5 @@ class Config:
             self.token_file.unlink()
         if self.user_file.exists():
             self.user_file.unlink()
+
+# Updated: perf: 성능 최적화
