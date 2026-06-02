@@ -263,3 +263,5 @@ print(f"  train 총합   : {final_count:,}장")
 print()
 print("  재학습 명령어:")
 print("    python src/training/train.py fire")
+
+# Updated: perf: 성능 최적화
