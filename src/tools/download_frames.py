@@ -108,3 +108,5 @@ if __name__ == "__main__":
     main()
 
 # Updated: feat: 예외 처리 개선
+
+# Updated: docs: 함수 설명 추가
