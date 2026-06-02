@@ -114,3 +114,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Updated: refactor: 코드 가독성 개선
