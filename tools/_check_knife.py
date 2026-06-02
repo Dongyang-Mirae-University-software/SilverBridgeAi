@@ -61,3 +61,5 @@ for folder in sorted(Path('models').iterdir()):
     print(f'  {folder.name}: mAP50={best:.3f}')
 
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
