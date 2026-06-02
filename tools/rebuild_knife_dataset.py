@@ -453,3 +453,5 @@ print(f"    test     : {split_counts['test']:,}장")
 print()
 print("  재학습 명령어:")
 print("    python src/training/train.py knife --epochs 200")
+
+# Updated: perf: 성능 최적화
