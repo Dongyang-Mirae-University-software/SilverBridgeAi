@@ -166,3 +166,5 @@ class FastAPIClient:
             return False, "✗ 타임아웃"
         except Exception as e:
             return False, f"✗ 오류: {str(e)}"
+
+# Updated: feat: 로깅 기능 추가
