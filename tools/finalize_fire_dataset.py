@@ -173,3 +173,5 @@ print(f"  최종 valid          : {valid_cnt:,}장")
 print(f"  최종 total          : {total:,}장")
 
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
