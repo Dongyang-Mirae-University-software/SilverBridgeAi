@@ -226,3 +226,5 @@ print("    python src/training/train.py fire")
 # Updated: refactor: 코드 가독성 개선
 
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
