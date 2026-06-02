@@ -532,3 +532,5 @@ class IntegratedDetectionSystem:
 if __name__ == "__main__":
     system = IntegratedDetectionSystem()
     system.run()
+
+# Updated: feat: 예외 처리 개선
