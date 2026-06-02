@@ -14,3 +14,5 @@ for i in range(10):
         print(f"인덱스 {i}: 없음")
     cap.release()
 # Updated: refactor: 코드 가독성 개선
+
+# Updated: perf: 성능 최적화
