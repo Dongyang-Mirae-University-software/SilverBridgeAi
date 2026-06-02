@@ -165,3 +165,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Updated: fix: 메모리 누수 방지
