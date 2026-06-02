@@ -87,3 +87,5 @@ print()
 print("  ★ 핵심 문제:")
 print(f"    빈 라벨 {empty_label}장 = 불이 찍혔는데 '아무것도 없음'으로 학습됨")
 print(f"    fire_new3 {len(fire_new3_files)}장 = 총·병·사람 배경에 불만 라벨 → 혼란")
+
+# Updated: perf: 성능 최적화
