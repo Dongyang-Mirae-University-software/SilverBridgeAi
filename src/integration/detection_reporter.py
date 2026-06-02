@@ -217,3 +217,5 @@ class DetectionReporter:
                 print(f"   - {dtype.upper()}: {count}건")
         print(f"   - 평균 신뢰도: {summary['average_confidence']:.1%}")
         print("=" * 70 + "\n")
+
+# Updated: docs: 함수 설명 추가
