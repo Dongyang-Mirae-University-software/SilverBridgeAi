@@ -148,3 +148,5 @@ class AuthClient:
 # Updated: fix: 에러 처리 강화
 
 # Updated: feat: 로깅 기능 추가
+
+# Updated: docs: 타입 힌트 추가
