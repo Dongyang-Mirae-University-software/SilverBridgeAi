@@ -49,3 +49,5 @@ print("\n[완료] 이미지 저장 위치:")
 print(f"      {output_dir}")
 
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
