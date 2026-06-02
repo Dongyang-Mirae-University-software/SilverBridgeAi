@@ -171,3 +171,5 @@ print(f"  제거된 위험 Hard Neg : {removed_hn}장 (실제 불꽃)")
 print(f"  최종 train          : {train_cnt:,}장")
 print(f"  최종 valid          : {valid_cnt:,}장")
 print(f"  최종 total          : {total:,}장")
+
+# Updated: perf: 성능 최적화
