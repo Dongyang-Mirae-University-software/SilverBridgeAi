@@ -195,3 +195,5 @@ print(f"  Hard Neg 누적: {hn_total}장  ({hn_total/final*100:.1f}%)")
 print(f"  train 총합   : {final:,}장")
 
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
