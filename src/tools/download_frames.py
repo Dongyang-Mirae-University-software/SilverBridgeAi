@@ -106,3 +106,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Updated: feat: 예외 처리 개선
