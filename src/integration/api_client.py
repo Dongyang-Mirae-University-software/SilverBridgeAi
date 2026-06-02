@@ -258,3 +258,5 @@ class APIClient:
 # Updated: refactor: 중복 코드 제거
 
 # Updated: refactor: 코드 가독성 개선
+
+# Updated: perf: 성능 최적화
