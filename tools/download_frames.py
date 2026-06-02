@@ -98,3 +98,5 @@ print(f"추출 완료: {saved}장 → {FRAME_FOLDER}")
 # Updated: fix: 메모리 누수 방지
 
 # Updated: refactor: 중복 코드 제거
+
+# Updated: refactor: 코드 가독성 개선
