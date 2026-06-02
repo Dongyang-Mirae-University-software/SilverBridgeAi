@@ -87,3 +87,5 @@ print("=" * 56)
 print(f"  1. smoke 데이터 부족 ({valid_smoke + valid_both}장만 있어 smoke mAP50 낮을 것)")
 print(f"  2. 실내 환경 화재 이미지 부족 (독거노인 집 = 실내)")
 print(f"  3. 집 안 오감지 유발 물체 Hard Negative 추가 가능")
+
+# Updated: perf: 성능 최적화
