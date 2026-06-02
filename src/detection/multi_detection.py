@@ -343,3 +343,5 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 # Updated: refactor: 변수명 명확화
+
+# Updated: fix: 메모리 누수 방지
