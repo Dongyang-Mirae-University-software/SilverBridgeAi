@@ -280,3 +280,5 @@ Fire 모델의 미감지 원인 (False Negative):
 if __name__ == "__main__":
     create_ppt()
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
