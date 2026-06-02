@@ -434,3 +434,5 @@ print(f"  LYING        : {stat_lying}프레임 ({stat_lying/max(1,frame_count)*1
 print(f"  감지된 낙상  : {fall_count}건")
 print(f"[저장 위치] {os.path.abspath(OUTPUT_DIR)}")
 print("=" * 50)
+
+# Updated: docs: 함수 설명 추가
