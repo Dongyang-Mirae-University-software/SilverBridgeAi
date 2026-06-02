@@ -215,3 +215,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Updated: refactor: 변수명 명확화
