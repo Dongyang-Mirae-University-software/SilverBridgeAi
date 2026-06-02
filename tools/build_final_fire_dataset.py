@@ -418,3 +418,5 @@ print(f"  test  : {split_counts.get('test', 0):,}장")
 print(f"  합계  : {total_final:,}장")
 print(f"\n  재학습:")
 print(f"    python src/training/train.py fire --epochs 250")
+
+# Updated: perf: 성능 최적화
