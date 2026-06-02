@@ -103,3 +103,5 @@ print(f"    fire_new3 {len(fire_new3_files)}장 = 총·병·사람 배경에 불
 # Updated: refactor: 변수명 명확화
 
 # Updated: fix: 메모리 누수 방지
+
+# Updated: refactor: 중복 코드 제거
