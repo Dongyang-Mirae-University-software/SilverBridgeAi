@@ -89,3 +89,5 @@ print(f"  2. 실내 환경 화재 이미지 부족 (독거노인 집 = 실내)")
 print(f"  3. 집 안 오감지 유발 물체 Hard Negative 추가 가능")
 
 # Updated: perf: 성능 최적화
+
+# Updated: refactor: 변수명 명확화
