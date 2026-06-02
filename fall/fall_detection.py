@@ -436,3 +436,5 @@ print(f"[저장 위치] {os.path.abspath(OUTPUT_DIR)}")
 print("=" * 50)
 
 # Updated: docs: 함수 설명 추가
+
+# Updated: fix: 에러 처리 강화
