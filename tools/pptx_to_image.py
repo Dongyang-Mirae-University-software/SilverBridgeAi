@@ -47,3 +47,5 @@ except Exception as e:
 
 print("\n[완료] 이미지 저장 위치:")
 print(f"      {output_dir}")
+
+# Updated: perf: 성능 최적화
