@@ -32,3 +32,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+# Updated: feat: 로깅 기능 추가
