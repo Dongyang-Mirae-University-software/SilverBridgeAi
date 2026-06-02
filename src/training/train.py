@@ -17,8 +17,29 @@ from ultralytics import YOLO
 
 # ==========================================
 # 경로 설정
+#
+# 우선순위:
+#   1. train.py 와 같은 위치에 datasets/ 존재  → BASE = 그 폴더
+#   2. 한 단계 위에 datasets/ 존재             → BASE = 상위 폴더
+#      (서버: ModelTraining/ 옆에 datasets/ 있는 경우)
+#   3. 둘 다 없으면 로컬 Windows 경로 폴백
+#
+# yolo26n.pt 탐색:
+#   train.py 위치 → BASE 순서로 탐색
 # ==========================================
-BASE = Path("C:/Users/happy/SilverBridgeAI/AISilverBridgeLJH")
+_here = Path(__file__).resolve().parent
+
+if (_here / "datasets").exists():
+    BASE = _here
+elif (_here.parent / "datasets").exists():
+    BASE = _here.parent
+else:
+    BASE = Path("C:/Users/happy/SilverBridgeAI/AISilverBridgeLJH")
+
+# yolo26n.pt: train.py 와 같은 폴더 우선, 없으면 BASE 에서 탐색
+_model_pt = _here / "yolo26n.pt"
+if not _model_pt.exists():
+    _model_pt = BASE / "yolo26n.pt"
 
 CONFIGS = {
     "fire": {
@@ -69,7 +90,7 @@ print(f"  Epoch : {epochs}")
 print(f"  저장  : models/{name}/weights/best.pt")
 print(f"{'='*50}\n")
 
-model = YOLO(str(BASE / "yolo26n.pt"))
+model = YOLO(str(_model_pt))
 model.train(
     data=data,
     epochs=epochs,

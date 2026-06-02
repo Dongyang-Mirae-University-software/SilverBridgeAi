@@ -22,11 +22,9 @@ mp_draw = mp.solutions.drawing_utils
 # 영상 입력
 # ==========================================
 
-# 웹캠 사용
-# cap = cv2.VideoCapture(0)
-
-# 영상 파일 사용
-cap = cv2.VideoCapture("videos/fall1.mp4")
+# 🎥 카메라 사용 (0=내장, 1=외부/DroidCam)
+camera_index = 1  # ← 필요하면 0으로 변경
+cap = cv2.VideoCapture(camera_index)
 
 # ==========================================
 # 시작 전 진단
@@ -36,17 +34,17 @@ print("=" * 50)
 print(f"[현재 디렉터리] {os.getcwd()}")
 
 if not cap.isOpened():
-    print("❌ 오류: 영상 파일을 열 수 없습니다.")
-    print(f"   확인 경로: {os.path.abspath('videos/fall1.mp4')}")
+    print(f"❌ 오류: 카메라 {camera_index}을(를) 열 수 없습니다.")
+    print(f"   확인: 카메라가 연결되어 있는지 확인하세요")
     exit(1)
 
 frame_w      = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_h      = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 input_fps    = cap.get(cv2.CAP_PROP_FPS)
-total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 fps          = input_fps if input_fps > 0 else 30.0
+total_frames = 0  # 카메라는 총 프레임 수가 없음
 
-print(f"[영상 정보] {frame_w}x{frame_h}, {fps:.1f}fps, {total_frames}프레임 ({total_frames/fps:.1f}초)")
+print(f"[카메라 정보] {frame_w}x{frame_h}, {fps:.1f}fps, 카메라 {camera_index}")
 print("=" * 50)
 
 # ==========================================

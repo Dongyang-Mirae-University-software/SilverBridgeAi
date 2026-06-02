@@ -1,0 +1,12 @@
+# SilverBridge AI - 백엔드 통합 모듈 의존성
+
+# HTTP 요청
+requests>=2.31.0
+
+# 환경 변수
+python-dotenv>=1.0.0
+
+# (기존 프로젝트 의존성)
+# ultralytics>=8.0.0
+# opencv-python>=4.8.0
+# mediapipe>=0.10.0
