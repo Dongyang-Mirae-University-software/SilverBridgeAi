@@ -100,3 +100,5 @@ print(f"추출 완료: {saved}장 → {FRAME_FOLDER}")
 # Updated: refactor: 중복 코드 제거
 
 # Updated: refactor: 코드 가독성 개선
+
+# Updated: perf: 성능 최적화
