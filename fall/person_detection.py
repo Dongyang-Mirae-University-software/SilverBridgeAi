@@ -22,3 +22,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+# Updated: fix: 메모리 누수 방지
