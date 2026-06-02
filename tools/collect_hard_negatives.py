@@ -214,3 +214,5 @@ print("  * 모델이 해당 장면을 '화재 없음'으로 학습")
 print()
 print("  재학습 명령어:")
 print("    python src/training/train.py fire")
+
+# Updated: perf: 성능 최적화
