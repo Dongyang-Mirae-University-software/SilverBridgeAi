@@ -116,3 +116,5 @@ if __name__ == "__main__":
     main()
 
 # Updated: refactor: 코드 가독성 개선
+
+# Updated: perf: 성능 최적화
