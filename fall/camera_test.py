@@ -15,3 +15,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+# Updated: perf: 성능 최적화
