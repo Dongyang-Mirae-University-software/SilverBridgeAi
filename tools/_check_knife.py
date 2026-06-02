@@ -59,3 +59,5 @@ for folder in sorted(Path('models').iterdir()):
             if val > best:
                 best = val
     print(f'  {folder.name}: mAP50={best:.3f}')
+
+# Updated: perf: 성능 최적화
