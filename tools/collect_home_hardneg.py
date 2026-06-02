@@ -193,3 +193,5 @@ print(f"\n{'='*54}")
 print(f"  이번 추가    : {total_saved}장")
 print(f"  Hard Neg 누적: {hn_total}장  ({hn_total/final*100:.1f}%)")
 print(f"  train 총합   : {final:,}장")
+
+# Updated: perf: 성능 최적화
