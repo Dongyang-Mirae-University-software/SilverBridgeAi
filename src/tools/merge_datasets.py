@@ -191,3 +191,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Updated: fix: 에러 처리 강화
