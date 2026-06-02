@@ -116,3 +116,5 @@ if __name__ == "__main__":
 # Updated: feat: 로깅 기능 추가
 
 # Updated: docs: 타입 힌트 추가
+
+# Updated: feat: 예외 처리 개선
