@@ -142,3 +142,5 @@ class AuthClient:
 # Updated: docs: 타입 힌트 추가
 
 # Updated: feat: 예외 처리 개선
+
+# Updated: docs: 함수 설명 추가
