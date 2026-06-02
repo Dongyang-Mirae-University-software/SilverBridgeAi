@@ -16,3 +16,5 @@ __all__ = [
 ]
 
 # Updated: fix: 에러 처리 강화
+
+# Updated: feat: 로깅 기능 추가
