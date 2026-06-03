@@ -21,3 +21,5 @@ Fire Hard Negatives 680개 샘플 분석 상세 분석 보고서
 
 ---
 Date: 2026-06-02 21:56:50
+
+<!-- Update 1 -->
