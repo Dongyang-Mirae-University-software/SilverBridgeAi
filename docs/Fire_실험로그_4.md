@@ -23,3 +23,5 @@ Fire_실험로그_4.md
 <!-- Update 4 -->
 
 <!-- Update 5 -->
+
+<!-- Update 6 -->
