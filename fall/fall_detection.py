@@ -448,3 +448,5 @@ print("=" * 50)
 # Updated: docs: 함수 설명 추가
 
 # Updated: fix: 에러 처리 강화
+
+# Confidence threshold optimization for improved detection accuracy
