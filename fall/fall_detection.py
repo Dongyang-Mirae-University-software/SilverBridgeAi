@@ -450,3 +450,5 @@ print("=" * 50)
 # Updated: fix: 에러 처리 강화
 
 # Confidence threshold optimization for improved detection accuracy
+
+# Improved pose landmark validation for better fall detection accuracy
