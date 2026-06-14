@@ -121,3 +121,4 @@ if __name__ == "__main__":
 
 # Updated: docs: 함수 설명 추가
 <!-- Update 1 -->
+<!-- Update 2 -->
