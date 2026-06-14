@@ -181,3 +181,4 @@ class FastAPIClient:
 
 # Updated: docs: 타입 힌트 추가
 <!-- Update 36 -->
+<!-- Update 37 -->
