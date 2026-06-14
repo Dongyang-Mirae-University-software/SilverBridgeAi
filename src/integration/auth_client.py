@@ -154,3 +154,4 @@ class AuthClient:
 # Updated: feat: 예외 처리 개선
 <!-- Update 31 -->
 <!-- Update 32 -->
+<!-- Update 33 -->
