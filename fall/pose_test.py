@@ -46,3 +46,4 @@ cv2.destroyAllWindows()
 
 # Updated: docs: 타입 힌트 추가
 <!-- Update 26 -->
+<!-- Update 27 -->
