@@ -546,3 +546,5 @@ if __name__ == "__main__":
 # Updated: feat: 예외 처리 개선
 
 # Updated: docs: 함수 설명 추가
+
+# Real-time multi-class detection with confidence thresholding optimization
