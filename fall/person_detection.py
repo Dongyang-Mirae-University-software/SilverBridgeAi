@@ -36,3 +36,4 @@ cv2.destroyAllWindows()
 
 # Updated: refactor: 중복 코드 제거
 <!-- Update 21 -->
+<!-- Update 22 -->
