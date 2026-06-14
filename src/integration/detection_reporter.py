@@ -233,3 +233,4 @@ class DetectionReporter:
 # Updated: fix: 에러 처리 강화
 <!-- Update 16 -->
 <!-- Update 17 -->
+<!-- Update 18 -->
