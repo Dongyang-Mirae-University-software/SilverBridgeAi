@@ -269,3 +269,4 @@ class APIClient:
 
 # Updated: refactor: 코드 가독성 개선
 <!-- Update 6 -->
+<!-- Update 7 -->
