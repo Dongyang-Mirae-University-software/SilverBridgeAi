@@ -118,3 +118,4 @@ print(f"\n[완료] models/{name}/weights/best.pt 에 저장됐습니다.")
 <!-- Update 27 -->
 <!-- Update 28 -->
 <!-- Update 29 -->
+<!-- Update 30 -->
