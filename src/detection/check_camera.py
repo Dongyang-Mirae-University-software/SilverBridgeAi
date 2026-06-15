@@ -28,3 +28,4 @@ for i in range(10):
 # Updated: perf: 성능 최적화
 
 # Multi-camera format detection and compatibility checking
+<!-- Update 21 -->
