@@ -357,3 +357,4 @@ cv2.destroyAllWindows()
 # Updated: fix: 메모리 누수 방지
 
 # Enhanced logging for detection performance monitoring
+<!-- Update 36 -->
