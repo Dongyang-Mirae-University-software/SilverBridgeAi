@@ -115,3 +115,4 @@ print(f"\n[완료] models/{name}/weights/best.pt 에 저장됐습니다.")
 
 # Improved model convergence with adaptive learning rate scheduling
 <!-- Update 26 -->
+<!-- Update 27 -->
