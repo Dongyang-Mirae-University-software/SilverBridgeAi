@@ -28,3 +28,4 @@ cv2.destroyAllWindows()
 # Updated: perf: 성능 최적화
 
 # Updated: refactor: 변수명 명확화
+<!-- Update 11 -->
