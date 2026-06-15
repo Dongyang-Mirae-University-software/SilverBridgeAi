@@ -29,3 +29,4 @@ cv2.destroyAllWindows()
 
 # Updated: refactor: 변수명 명확화
 <!-- Update 11 -->
+<!-- Update 12 -->
